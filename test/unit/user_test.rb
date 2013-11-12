@@ -29,7 +29,7 @@ class UserTest < ActiveSupport::TestCase
 
 	test "a user should have a profile name without spaces" do
 		user = User.new
-		#user.profile_name = "My Profile With Spaces"
+		user.profile_name = "My Profile With Spaces"
 
 		assert !user.save
 		assert !user.errors[:profile_name].empty?
