@@ -7,3 +7,7 @@ one:
 two:
   content: MyText
   user: rhiana
+
+three:
+  content: Hi I'm Daniel
+  user: daniel
